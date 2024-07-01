@@ -17,12 +17,12 @@ module.exports = {
 	onStart: async function ({ message }) {
 		const botName = "yazky";
 		const botPrefix = "!";
-		const authorName = "CliffVincent";
-		const ownAge = "18";
+		const authorName = "Christel";
+		const ownAge = "21";
 		const teamName = "Github team";
-		const authorFB = "https://www.facebook.com/swordigo.swordslush";
+		const authorFB = "https://web.facebook.com/profile.php?id=100087372638705";
 		const authorInsta = "Thead469";
-		const tikTok = "tiktok.com/@Cliffthegreat0";
+		const tikTok = "";
 		const urls = JSON.parse(fs.readFileSync('cliff.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
