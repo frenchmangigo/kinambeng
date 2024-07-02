@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "hahaha") return message.reply("sanaol happy chat mo owner ko 👇https://www.facebook.com/swordigo.swordslush masaya ka lalo sa kanya HAHA");
+	if (event.body && event.body.toLowerCase() == "hahaha") return message.reply("sanaol happy chat mo owner ko 👇https://web.facebook.com/profile.php?id=100087372638705 \n masaya ka lalo sa kanya HAHA");
 }
 };
