@@ -395,6 +395,10 @@
 		if (userInput.toLowerCase().includes('what is your name') || userInput.toLowerCase().includes('whats your name')) {
 				botResponse = "I am a language model AI assistant powered by OpenAI. You can call me Stellar. How may I assist you today?";
 		}
+		if (userInput.toLowerCase().includes('how did they make you?') || userInput.toLowerCase().includes('paano ka nila ginawa',)) {
+				botResponse = "Agoii bobo ka pala!";
+		}
+		
 
 		botResponse = botResponse.replace(/\n/g, '<br>');
 		return botResponse;
